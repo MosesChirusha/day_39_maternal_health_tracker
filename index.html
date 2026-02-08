@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Maternal Health Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Maternal Health Tracker</h1>
+    <p class="subtitle">Track pregnancy milestones and clinic visits</p>
+
+    <div class="card">
+      <label>Pregnancy Start Date</label>
+      <input type="date" id="startDate" />
+      <button onclick="calculateProgress()">Start Tracking</button>
+    </div>
+
+    <div id="progressSection" class="hidden">
+      <div class="stats">
+        <div>
+          <h3 id="week">0</h3>
+          <span>Weeks Pregnant</span>
+        </div>
+        <div>
+          <h3 id="trimester">-</h3>
+          <span>Trimester</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Upcoming Milestone</h2>
+        <p id="milestoneText"></p>
+      </div>
+
+      <div class="card">
+        <h2>Add Clinic Appointment</h2>
+        <input type="date" id="appointmentDate" />
+        <button onclick="addAppointment()">Add Appointment</button>
+        <ul id="appointmentList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
