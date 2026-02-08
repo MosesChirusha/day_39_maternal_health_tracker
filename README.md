@@ -23,6 +23,10 @@ This tool is designed for individuals, community health workers, NGOs, and clini
 
 ---
 
+## Resources
+- [Demo:](https://moseschirusha.github.io/day_39_maternal_health_tracker)
+- [Medium Article: ](https://moseschirusha.medium.com/building-a-maternal-health-tracker-that-works-even-without-the-internet-48faeaf3591b)
+
 ## Features
 
 - Pregnancy week and trimester calculation
